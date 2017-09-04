@@ -18,7 +18,7 @@ We will first organize ourselves into teams of up to five (5) students, then des
 
 We are using a Google Sheet to get organized, with one tab per section. Specify the system types across the first row and put an `x` on the corresponding column across your name to indicate your group. We are targeting groups of five (5) or less; students may belong to only one group. Here is the Google Sheet link:
 
-https://to.be.determined
+https://docs.google.com/spreadsheets/d/1Kk2gAo3n5LY9ZoChjQdQsMDW56mfeqnpV2WismRA_fM/edit?usp=sharing
 
 It is private, shared only with you via the same Google account used to share the course’s screengrab videos.
 
@@ -62,3 +62,13 @@ End your report with a brief summary of what each group member did for the overa
 Be as concrete and grounded as possible. For example, you can provide screenshots from the actual system to illustrate your points. Refer to specific guideline statements or principles. Connect statements about mental models to specific artifacts of the system image (screenshots again). Et cetera.
 
 And of course, write clearly, with the appropriate style and voice. Proofread a lot—your score will reflect both what you say and how effectively you say it.
+
+## Specific Point Allocations
+
+| Category | Points |
+| ---- | ----: |
+| Content | 80 |
+| Writing | 20 |
+| Total | 100 |
+
+Writing assignments are scored under the overall categories of _Content_ and _Writing_. _Content_ pertains to the outcomes listed in the syllabus for writing assignments: you want to demonstrate outcomes _1a_, _1b_, _2a_, and _2b_, up to the concepts that have been covered in class to this point. _Writing_ pertains to how well these ideas are expressed, and how cleanly. There is also a certain maturity and professionalism of voice that makes your points more compelling and authoritative. The recommended course texts provide models for how this “voice” should sound.
