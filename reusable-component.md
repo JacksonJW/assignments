@@ -4,14 +4,14 @@
 We conclude your exposure to direct manipulation implementation with a different type of product—instead of a full application, this time you are asked to build a _reusable component_ that uses direct manipulation.
 
 ## Background Reading
-The readings from [Assignment 1121](https://github.com/lmu-cmsi370-fall2017/assignments/blob/master/direct-manipulation.md) apply here also.
+The readings from [Assignment 1130](https://github.com/lmu-cmsi370-fall2017/assignments/blob/master/direct-manipulation.md) apply here also.
 
 ## For Submission
 
 ### Direct Manipulation Widget
 We wrap up our programming work by going back to the basics: design and implement a reusable direct maniuplation widget for use in web browsers in general, and for your custom front end in particular. To emphasize reusability, implement your widget as a [jQuery plugin](https://learn.jquery.com/plugins/). Further, you are to provide a _notification mechanism_ (likely in the form of a callback) that informs users of your widget of relevant events, e.g., such as when the widget’s model value changes.
 
-The point here is to see how low-level event handling (e.g., mouse/keyboard/touch activity) translate into higher-level ones (e.g., selection or change events). If [Assignment 1121](https://github.com/lmu-cmsi370-fall2017/assignments/blob/master/direct-manipulation.md) involved direct manipulation “in the large,” this one exercises direct manipulation “in the small.” Some ideas:
+The point here is to see how low-level event handling (e.g., mouse/keyboard/touch activity) translate into higher-level ones (e.g., selection or change events). If [Assignment 1130](https://github.com/lmu-cmsi370-fall2017/assignments/blob/master/direct-manipulation.md) involved direct manipulation “in the large,” this one exercises direct manipulation “in the small.” Some ideas:
 
 - A selection knob or slider
 - A rolling or scrolling item selector
