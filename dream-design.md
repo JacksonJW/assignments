@@ -1,6 +1,6 @@
 **CMSI 370** Interaction Design, Fall 2017
 
-# Assignment 1130
+# Assignment 1207
 This assignment releases you from coding-related constraints and lets you try your hand at being a full-on, no-holds-barred interaction designer.
 
 ## Background Reading
@@ -17,7 +17,7 @@ This is your chance to cut loose—design your idea of a “dream” user interf
 That’s pretty much it. All else is fair game. A [template for the design document](https://github.com/lmu-cmsi370-fall2017/assignments/blob/master/dream-design-template.md) is included with this repository, specifying the content that you are expected to provide.
 
 ### What System?
-The target system for your user interface is a front end for any currently existing web service API—any API, not necessarily the same one for which you implemented a web front end in [Assignment 1026](https://github.com/lmu-cmsi370-fall2017/assignments/blob/master/web-front-end.md). Maybe the API you really wanted was too restrictive to use, or had too many constraints; with this assignment, you can try your hand at it. In any case, you are constrained to the data and capabilities provided by that API, but you may present, process, navigate, or interact with those services in any way that you like. You also don’t need to worry about security constraints or server-side complexities that specific APIs may have. Assume that those are taken care of. To expand on the functional possibilities of your front end, you may also combine multiple APIs, as long as all of these APIs are used as they currently exist.
+The target system for your user interface is a front end for any currently existing web service API—any API, not necessarily the same one for which you implemented a web front end in [Assignment 1102](https://github.com/lmu-cmsi370-fall2017/assignments/blob/master/web-front-end.md). Maybe the API you really wanted was too restrictive to use, or had too many constraints; with this assignment, you can try your hand at it. In any case, you are constrained to the data and capabilities provided by that API, but you may present, process, navigate, or interact with those services in any way that you like. You also don’t need to worry about security constraints or server-side complexities that specific APIs may have. Assume that those are taken care of. To expand on the functional possibilities of your front end, you may also combine multiple APIs, as long as all of these APIs are used as they currently exist.
 
 For systems that offer not only web services but also “drop-in” widgets (e.g., Pinterest, Twitch, Twitter, etc.), you are allowed to redesign those widgets as you see fit, if those widgets play a role in your dream design. Stay within the data provided by those widgets, but you can re-layout, -present, or -organize the information any way you like.
 
