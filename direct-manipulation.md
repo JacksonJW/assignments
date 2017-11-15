@@ -39,19 +39,55 @@ Optional features (time permitting) include:
 #### A “Maze Ball” App
 Convert the supplied code into a “maze builder” app where:
 - There are two types of objects—instead of just boxes, there are bricks and balls.
-- The bricks can be created and moved, just like the current boxes _but without being affected by device motion_.
+- The bricks can be created and dragged, just like the current boxes _but without being affected by device motion_.
 - The balls _are_ affected by device motion and gravity, but can’t be created nor controlled by the user in any other way. (i.e., predefine them on your web app at preset locations) They should _probably_ also look like…balls.
 - When the user rotates the device that runs the app, the balls move accordingly, but they ricochet off any bricks that are in their path.
 - Bricks don’t need to interact with each other: they may overlap and be moved freely.
-- Optionally, the balls may also bounce off each other, but this is not required.
 - Design a mechanism for deleting bricks, so that the maze doesn’t monotonically get tighter and tighter.
 
 _Brick creation and motion, must be fully multitouch-capable: that is, the user should be able to perform operations concurrently on multiple bricks, limited only by the number of fingers that the device can follow._ As bricks are being moved and created, balls should keep on rolling in accordance with the device’s orientation and gravity.
 
 Optional features (time permitting) include:
 - Brick destruction: If a ball collides with a brick at sufficient speed, it destroys the brick.
+- Ball collision: Balls also bounce off each other.
 - Some kind of scoring: You can give the app a pinball-like dynamic by keeping track of a score for events such as brick-and-ball collision, brick destruction, etc.
 - Use of images: You don’t need to restrict your bricks and balls to CSS-only visuals; feel free to use `img` elements to give them a custom look.
 
 ### How to Turn it In
 Commit your direct manipulation web app files such that your repository becomes the root location of a web server. To evaluate your work, we will run a simple HTTP server from a local copy of that directory and use your application from a multitouch- and accelerometer-capable web browser.
+
+## Specific Point Allocations
+Programming assignments are scored according to outcomes _3a_, _3b_, and _4a_ to _4f_ in the [syllabus](http://dondi.lmu.build/fall2017/cmsi370/cmsi370-fall2017-syllabus.pdf). For this particular assignment, graded categories are as follows:
+
+### Bubble Simulator
+
+| Category | Points | Outcomes |
+| -------- | -----: | -------- |
+| Bubble look | 10 | _3a_, _4a_, _4b_, _4d_ |
+| Bubble motion | 30 | _3a_, _3b_, _4a_, _4b_, _4d_ |
+| Bubble creation | 20 | _3a_, _3b_, _4a_, _4b_, _4d_ |
+| Bubble inflation/deflation | 30 | _3a_, _3b_, _4a_, _4b_, _4d_ |
+| Bubble popping (deletion) | 10 | _3a_, _3b_, _4a_, _4b_, _4d_ |
+| Linting | deduction only | _4c_ |
+| Version Control | deduction only | _4e_ |
+| Punctuality | deduction only | _4f_ |
+| **Total** | **100** |
+
+### Maze Balls
+
+| Category | Points | Outcomes |
+| -------- | -----: | -------- |
+| Distinct bricks and balls | 10 | _3a_, _4a_, _4b_, _4d_ |
+| Brick creation | 20 | _3a_, _3b_, _4a_, _4b_, _4d_ |
+| Brick dragging | 10 | _3a_, _3b_, _4a_, _4b_, _4d_ |
+| Ball motion | 10 | _3a_, _3b_, _4a_, _4b_, _4d_ |
+| Ball-to-brick collision | 25 | _3a_, _3b_, _4a_, _4b_, _4d_ |
+| Brick deletion | 25 | _3a_, _3b_, _4a_, _4b_, _4d_ |
+| Linting | deduction only | _4c_ |
+| Version Control | deduction only | _4e_ |
+| Punctuality | deduction only | _4f_ |
+| **Total** | **100** |
+
+The last three graded categories are “deduction only,” meaning that you will only get points taken off if there are significant issues with those categories. Such issues include but are not limited to: lingering linting errors as of the final commit (_4c_), insufficiently granular or unmessaged commits (_4e_), and late commits (_4f_).
+
+Optional features, if implemented, will be given bonus points depending on degree of difficulty and correctness of execution. However, such features will not be looked at until the requested functions are fulfilled.
