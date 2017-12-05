@@ -1,29 +1,29 @@
-**CMSI 370** Interaction Design, Fall 2017
+# Dream Design Document Template
+Copy this file to a new one called _dream-design.md_. Populate the sections as indicated. Illustrate your ideas as needed, with diagrams, screen mockups, etc. Don’t forget to cite references—this is still a piece of formal writing.
 
-# Assignment 1130
-This assignment releases you from coding-related constraints and lets you try your hand at being a full-on, no-holds-barred interaction designer.
+## Application Description
+> A description of the application for which you have created the design, focusing on any particular usability issues that you’d like to address. There is no restriction on the platform of the application; you can make it whatever you want it to be.
 
-## Background Reading
-Textbook reading is comprehensive for this assignment: anything may be relevant from throughout the semester.
+### Web Service(s) Used
+> Briefly list and describe the web service(s) that will support the functionality of your application. Don’t assume that the reader knows about the service(s) beforehand. Describe the functionality you intend to use, and list the API calls that will support your dream design. Feel free to provide web links to relevant online documentation.
 
-## For Submission
+## Top-Level Design/Layout
+> Provide an overview of your user interface. Annotated mockups work very well here, with accompanying text describing, at a high level, the various components of your design.
 
-### A “Dream” Interface Design
-This is your chance to cut loose—design your idea of a “dream” user interface for a selected system. Think outside of the box, be creative, mix and match interaction styles—it’s your call. Some (minimal, I hope) ground rules:
+## Usage Scenarios
+> A usage scenario is a mini-story that highlights how a user would accomplish a certain task in your dream design. Provide at least two. Make sure to provide the following information per scenario: (a) the task that the user will perform, (b) the relevant user interface elements for performing this task, and (c) a brief narrative on how the user would perform this task with those user interface elements. Mock up, animate, or annotate your scenarios liberally.
 
-- You may mix and match any existing _shipping_ technology (e.g., multitouch, speech, audio/ video, gesture, 3D, accelerometers, gyroscopes, GPS) regardless of current platform.
-- Prototype or speculative technologies are off-limits (e.g., brain control, holograms, see-through displays, human-like vision or comprehension)—if something does exist but remains extremely bleeding-edge, provide one or more references to document its availability.
+### Usage Scenario 1
+> Replace the title with an actual description of the scenario, e.g., “Adding a Song to a Playlist.”
 
-That’s pretty much it. All else is fair game. A [template for the design document](https://github.com/lmu-cmsi370-fall2017/assignments/blob/master/dream-design-template.md) is included with this repository, specifying the content that you are expected to provide.
+### Usage Scenario 2
+> Ditto with the title.
 
-### What System?
-The target system for your user interface is a front end for any currently existing web service API—any API, not necessarily the same one for which you implemented a web front end in [Assignment 1026](https://github.com/lmu-cmsi370-fall2017/assignments/blob/master/web-front-end.md). Maybe the API you really wanted was too restrictive to use, or had too many constraints; with this assignment, you can try your hand at it. In any case, you are constrained to the data and capabilities provided by that API, but you may present, process, navigate, or interact with those services in any way that you like. You also don’t need to worry about security constraints or server-side complexities that specific APIs may have. Assume that those are taken care of. To expand on the functional possibilities of your front end, you may also combine multiple APIs, as long as all of these APIs are used as they currently exist.
+## Design Rationale
+> State why your design is the way it is: relevant priorities, mental models, interaction design concepts, guidelines, principles, theories, etc. Cite relevant references as needed.
 
-For systems that offer not only web services but also “drop-in” widgets (e.g., Pinterest, Twitch, Twitter, etc.), you are allowed to redesign those widgets as you see fit, if those widgets play a role in your dream design. Stay within the data provided by those widgets, but you can re-layout, -present, or -organize the information any way you like.
+## Usability Metric Forecast
+> If implemented then tested, what would be your design’s strong metrics? Weak metrics? Explain your choices.
 
-Presumably, you will find something among these options that is to your liking and will keep you excited. If you have any qustions about your choice, don’t hesitate to run it by me.
-
-### How to Turn It In
-Commit your design document as a file called _dream-design.md_ in this repository. As can be seen from the filename, [Markdown format](https://guides.github.com/features/mastering-markdown/) should be used.
-
-Alternatively, you may also document your design as one or more web pages. Consider building these with Jekyll so that you get templating, standardized layouts, etc.—feel free to use the [paradixm](https://github.com/dondi/paradixm) Jekyll configuration as a starting point (suggested but not required). Of course, you should still follow the [design document template](https://github.com/lmu-cmsi370-fall2017/assignments/blob/master/dream-design-template.md) for the content of these pages.
+## References
+> Cite formally, as you would with any other research paper.
